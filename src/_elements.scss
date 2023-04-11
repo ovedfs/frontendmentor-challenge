@@ -1,0 +1,23 @@
+@use 'settings';
+
+body {
+  background-color: settings.$off-white;
+  color: settings.$very-dark-blue;
+  font-family: settings.$font-name;
+}
+
+img {
+  max-width: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+p {
+  line-height: 1.7;
+}
